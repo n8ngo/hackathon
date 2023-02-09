@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "WTF",
+  "version": "1.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://en.wikipedia.org/wiki/*"],
+      "js": ["./main.js"],
+      "css": ["./style.css"]
+    }
+  ],
+  "icons": { "16": "staff-photos/phil.png",
+           "48": "staff-photos/phil.png",
+          "128": "staff-photos/phil.png" }
+}
