@@ -1,15 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "WTF",
-  "version": "1.0.1",
+  "name": "MintedAddressScraper",
+  "version": "1.0.0",
+  "description": "Export your Minted address book.",
   "content_scripts": [
     {
-      "matches": ["https://en.wikipedia.org/wiki/*"],
+      "matches": ["https://www.minted.com/addressbook/*"],
       "js": ["./main.js"],
       "css": ["./style.css"]
     }
   ],
-  "icons": { "16": "staff-photos/phil.png",
-           "48": "staff-photos/phil.png",
-          "128": "staff-photos/phil.png" }
+  "icons": {}
 }
